@@ -1,0 +1,120 @@
+/*
+Theme Name: JMA Child Theme
+Version: 7.0
+Description: This Child theme modifies the default Jump Start theme to include themebase with a changable layout. For use with Jumpstart 2.1.2 framework.
+Author: John Antonacci
+Template: jumpstart
+*/
+
+@media (min-width: 768px) {
+    .header-nav.sidebar .jma-header-right {
+        right: 40px;
+    }
+}
+
+.sc-search a {
+    margin-left: 5px;
+}
+
+.sc-search a:hover {
+    cursor: pointer;
+}
+
+.tb-primary-menu>li>a .sf-sub-indicator {
+    display: none;
+}
+
+#menu-item-1575>ul {
+    width: 260px;
+}
+
+#menu-item-210>ul {
+    width: 270px;
+}
+
+@media(min-width: 768px) {
+    .ribbon .col {
+        border-left: solid 1px #ffffff
+    }
+}
+
+.ribbon .col:first-child {
+    border-left: none
+}
+
+.ribbon .tb-milestone .text:before {
+    display: none
+}
+
+/* isotope */
+
+.jma-iso-tax-grid-wrap .jma-btn {
+    font-size: 16px;
+}
+
+.zoom-section>.element {
+    max-width: 1200px !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+}
+
+.zoom-section h1 {
+    font-size: 18px;
+}
+
+.cta-container {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    width: 96%;
+    min-height: 600px;
+    margin: 2%;
+    position: relative;
+}
+
+.cta-content {
+    width: 80%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.cta-content p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    max-width: 488px;
+    margin: 10% auto 0;
+}
+
+.cta-content a {
+    color: #ffffff;
+}
+
+.cta-content a:hover {
+    color: #83ADC3;
+}
+
+.cta-content button, .cta-content a {
+    font-size: 1rem;
+    width: 60%;
+    margin: 2rem auto 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+body .theme-default .nivo-directionNav a {
+    background-color: transparent !important
+}
+
+/* contact form 7 */
+
+.no-clear span::before, .no-clear span::after {
+    content: none;
+}
