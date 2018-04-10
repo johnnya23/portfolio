@@ -1,5 +1,5 @@
 /*
-custom 
+custom
 */
 
 h1, .tb-info-box .info-box-title {
@@ -196,6 +196,14 @@ body #branding>.wrap .remove_root_bg#access {
 
 /* home */
 
+.zoom-section>.element {
+    max-width: 1200px !important;
+}
+
+.zoom-section h1 {
+    font-size: 18px;
+}
+
 .home-lists .content-wrapper {
     text-align: left;
 }
@@ -363,10 +371,63 @@ body #branding>.wrap .remove_root_bg#access {
     color: #83ADC3;
 }
 
+.cta-container {
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgba(255, 255, 255, 0.2);
+    width: 96%;
+    min-height: 600px;
+    margin: 2%;
+    position: relative;
+}
+
+.cta-content {
+    width: 80%;
+    position: absolute;
+    display: inline-block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    color: #ffffff;
+}
+
+.cta-content p {
+    font-size: 1.6rem;
+    font-weight: 300;
+    max-width: 488px;
+    margin: 10% auto 0;
+}
+
+.cta-content a {
+    color: #ffffff;
+}
+
+.cta-content a:hover {
+    color: #83ADC3;
+}
+
+.cta-content button, .cta-content a {
+    font-size: 1rem;
+    width: 60%;
+    margin: 2rem auto 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
 /* form*/
 
 .wpcf7 p {
     margin-bottom: 0
+}
+
+/* contact form 7  */
+
+.no-clear span::before, .no-clear span::after {
+    content: none;
 }
 
 /* personnel grid */
