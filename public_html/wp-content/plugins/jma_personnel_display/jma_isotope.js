@@ -60,7 +60,7 @@ jQuery(document).ready(function($) {
         });
     });
 
-
+    //change button display (show - hide)
     jQuery('.taxonomies').each(function(i, parentGroup) {
         var $taxButton = jQuery(this);
         $taxButton.on('click', '.trigger', function() {
