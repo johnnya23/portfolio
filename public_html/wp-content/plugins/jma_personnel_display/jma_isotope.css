@@ -1,6 +1,6 @@
-/*#jma-tax-grid-wrap {
+#jma-tax-grid-wrap {
     margin-bottom: 30px;
-    
+}
 
 #jma-tax-grid-inner {
     text-align: center;
@@ -47,7 +47,6 @@
     color: #666666;
     background: none;
     /*border-color: blue;*/
-
 }
 
 .filters.button-group {
@@ -84,6 +83,8 @@
 /*
 #jma-tax-grid-wrap .jma-column {
     overflow: hidden;
+
+
 }*/
 
 .jma-iso-tax-grid-wrap .jma-column {
