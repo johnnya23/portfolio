@@ -6,46 +6,6 @@ Author: John Antonacci
 Template: jumpstart
 */
 
-@media (min-width: 768px) {
-    .header-nav.sidebar .jma-header-right {
-        right: 40px;
-    }
-}
-
-.sc-search a {
-    margin-left: 5px;
-}
-
-.sc-search a:hover {
-    cursor: pointer;
-}
-
-.tb-primary-menu>li>a .sf-sub-indicator {
-    display: none;
-}
-
-#menu-item-1575>ul {
-    width: 260px;
-}
-
-#menu-item-210>ul {
-    width: 270px;
-}
-
-@media(min-width: 768px) {
-    .ribbon .col {
-        border-left: solid 1px #ffffff
-    }
-}
-
-.ribbon .col:first-child {
-    border-left: none
-}
-
-.ribbon .tb-milestone .text:before {
-    display: none
-}
-
 /* isotope */
 
 .jma-iso-tax-grid-wrap .jma-btn {
